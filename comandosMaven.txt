@@ -1,0 +1,17 @@
+comandos maven
+
+mvn test -> para testar os testes
+
+mvn compile -> para compilar
+
+mvn package -> gerar o jar
+
+
+No pom.xml (arquivo de configuracao do maven), caso seja um projeto web, usar a tag
+<packaging>war</packaging>. Por padrao o projeto será buildado em jar
+
+para projetos muito grandes usar os modulos do maven
+no pom usar <packaging>pom</packaging>
+e usar a tag <modules>
+
+no pom filho usar a tag <parent>
